@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yogeshwara Stores</title>
+</head>
+
+<body>
+    <div id="notification" class="notification">Content saved!</div>
+    <header class="no-print">
+        <div class="header">
+            <span class="title">
+                Yogeshwara Stores
+            </span>
+
+            <nav id="navig">
+                <ul>
+                    <li><a href="html/index.html">Home</a></li>
+                    <li><a href="html/reports.html" target="_blank">Reports / Transaction History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="no-print">
+        <div class="main">
+            <!-- AutoMated By Js -->
+        </div>
+    </main>
+
+    <div class="sameline no-print">
+
+        <section class="extras">
+            <label for="extra-items">Enter if any extra items</label>
+            <input type="text" id="extra-items" class="extra-items" placeholder="Enter Amount Here">
+
+            <br><br>
+
+            <label class="total-extra-items-label">Total for extra items: </label>
+            <span class="total-extra">0</span>
+
+            <br><br><br>
+
+            <label for="paid" class="paid-label">Amount Paid</label>
+            <input type="text" id="paid" class="paid-inp" placeholder="Amount Paid Here">
+
+            <br><br>
+            
+            <label class="total-paid-label">Total Amount paid: </label>
+            <span class="total-paid">0</span>
+        </section>
+
+        <section class="save-sec">
+            <label for="name">Enter customer name here</label>
+            <input type="text" id="name" value="Default Name"><br>
+            <div class="btns">
+                <button id="show-btn" onclick="showFunction()">Show</button>
+                <button id="save-btn" onclick="saveFunction()">Save</button>
+                <button id="reset-btn" onclick="resetFunction()">Reset</button>
+                <button id="print-btn" onclick="print()">Print</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="bill">
+        <table border="2" class="bill-table">
+            <tr>
+                <th>S.NO</th>
+                <th>Item Name</th>
+                <th>Cost</th>
+                <th>Qty.</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th colspan="3">Totals</th>
+                <th id="totalCigg">0</th>
+                <th id="totalAmt">0</th>
+            </tr>
+            <tr>
+                <th colspan="4">Paid:</th>
+                <th id="paid1">0</th>
+            </tr>
+            <tr>
+                <th colspan="4">Balance:</th>
+                <th id="due">0</th>
+            </tr>
+        </table>
+    </div>
+
+
+    <footer class="no-print">
+        <div class="footer">
+            <div class="total-items">
+                <span>
+                    Nos:
+                </span>
+                <span class="totalItems">
+                    0
+                </span>
+            </div>
+            <div class="total-div">
+                <span>
+                    Total:
+                </span>
+                <span class="total">
+                    0
+                </span>
+            </div>
+            <div class="paid-div">
+                <span>
+                    Paid:
+                </span>
+                <span class="paid">
+                    0
+                </span>
+            </div>
+            <div class="due-div">
+                <span>
+                    Due:
+                </span>
+                <span class="due">
+                    0
+                </span>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/global.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/extras.js"></script>
+</body>
+
+</html>

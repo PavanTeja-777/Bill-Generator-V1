@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 7px;
+    color: white;
+    background-color: blue;
+}
+
+table{
+    margin-top: 1em;
+}
+
+th{
+    font-size: 2.8em;
+    padding: 0px 10px;
+}
+td{
+    font-size: 2em;
+    padding: 0px 5px;
+}
+table button{
+    font-size: 0.5em;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.grey{
+    background-color: rgba(51, 104, 238, 0.438);
+}
+
+.save-cell button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    background-color: rgba(116, 231, 233, 0.668);
+    cursor: pointer;
+}
+
+.save-cell button:hover {
+    background-color: rgb(58, 231, 234);
+    box-shadow: 4px 3px 3px 0px rgb(93 109 109);
+}
+
+.del-cell{
+    padding: 5px 0px;
+}
+
+.del-cell button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: none;
+    background-color: rgba(220, 99, 99, 0.586);
+    cursor: pointer;
+}
+
+.svg-del {
+    height: 30px;
+    width: 30px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 10px;
+    border: none;
+}
+
+.del-cell button:hover {
+    background-color: rgb(247, 34, 34);
+    box-shadow: 4px 3px 3px 0px rgb(93 109 109);
+}

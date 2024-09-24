@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+main{
+    width: 793.7px;
+}
+table{
+    width: 793.7px;
+    margin: 15px;
+}
+table th{
+    padding: 0px 30px;
+}
+td{
+    text-align: center;
+}
+.details{
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+@media print {
+    .no-print {
+        display: none;
+    }
+}

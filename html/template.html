@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="details">
+            <div class="name-div">
+                <span>Name:</span>
+                <span id="name">Balraj</span>
+            </div>
+            <div class="date-div">
+                <span>Date:</span>
+                <span id="date">12-04-2023 14:03:56</span>
+            </div>
+        </div>
+        <table border="2">
+            <tr>
+                <th>S.NO</th>
+                <th>Item Name</th>
+                <th>Cost</th>
+                <th>Qty.</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th colspan="3">Totals</th>
+                <th id="totalCigg">0</th>
+                <th id="totalAmt">0</th>
+            </tr>
+            <tr>
+                <th colspan="4">Paid:</th>
+                <th id="paid">0</th>
+            </tr>
+            <tr>
+                <th colspan="4">Balance:</th>
+                <th id="bal">0</th>
+            </tr>
+        </table>
+    </main>
+    <button id="print-btn" class='no-print' onclick="_print()">Print</button>
+
+    <script src="../js/global.js"></script>
+    <script src="../js/template.js"></script>
+</body>
+</html>
